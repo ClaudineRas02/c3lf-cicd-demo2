@@ -4,7 +4,7 @@
   "scripts": {
     "test": "jest",
     "test:report": "jest --json --outputFile=rapport-tests.json",
-    "build": "mkdir -p dist && cp converter.js dist/ && echo Build OK"
+    "build": "mkdir -p dist && cp conversion.js dist/ && echo Build OK"
   },
   "devDependencies": {
     "jest": "^29.0.0"
