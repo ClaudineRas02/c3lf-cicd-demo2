@@ -1,0 +1,12 @@
+{
+  "name": "convertisseur",
+  "version": "1.2.0",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --json --outputFile=rapport-tests.json",
+    "build": "mkdir -p dist && cp converter.js dist/ && echo Build OK"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
